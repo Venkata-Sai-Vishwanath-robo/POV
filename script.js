@@ -5,7 +5,7 @@ const txt = document.getElementById("txt");
 const delaySlider = document.getElementById("delaySlider"); 
 const sliderValue = document.getElementById("sliderValue");
 
-let currentDelay = 1000;
+let currentDelay = 600;
 
 delaySlider.addEventListener("input", function() {
   currentDelay = parseInt(this.value); 
