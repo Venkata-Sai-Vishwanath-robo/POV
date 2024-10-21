@@ -150,30 +150,6 @@ html {
   border-radius: 70px;
 }
 
-.inst {
-  position: relative;
-  color: rgb(255, 255, 255);
-  font-family: 'Audiowide', sans-serif;
-  font-size: 400%;
-  padding: 20px;
-  margin-top: 190px;
-  margin-bottom: 80px;
-  z-index: 1;
-}
-          
-.inst::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(33, 37, 61, 0.5);
-  filter: blur(50px);
-  z-index: -1;
-  border-radius: 70px;
-}
-
 .inn {
   background-image: linear-gradient(to right, rgb(155, 155, 155) , rgb(192, 192, 192));
   font-family: 'Audiowide', sans-serif;
@@ -207,6 +183,5 @@ button-85:hover {
 }
             
 .gap {
-  color: black;
-  margin-bottom: 3000px;
+  margin-bottom: 100px;
 }
