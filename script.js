@@ -20,6 +20,7 @@ function storeText() {
   
 async function call() {
   await delay(1000);
+  navigator.vibrate([300]);
   for (let i = 0; i < text.length; i++) {
     let char = text[i];
     if (ledFunctions[char]) {
